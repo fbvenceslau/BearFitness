@@ -1,0 +1,9 @@
+@import "./colors.module.scss";
+
+.sectionBackground {
+  background-image: linear-gradient(to bottom, #ffffff23, $tealBlue),
+    url("../public/Background.svg");
+	background-position: center;  
+	background-size: cover;
+  background-repeat: no-repeat;
+}

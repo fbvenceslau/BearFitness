@@ -1,0 +1,10 @@
+Usuários
+- {{baseUrl}}/account #Detalhes do usuário GET
+- {{baseUrl}}/account #Atualizar dados (exceto senha) PUT
+- {{baseUrl}}/accountPassword #Atualizar senha PUT
+
+Autenticação
+- {{baseUrl}}/auth/register #Cadastro
+- {{baseUrl}}/auth/login #Login
+
+

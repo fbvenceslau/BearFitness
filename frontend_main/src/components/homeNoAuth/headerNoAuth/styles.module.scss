@@ -1,0 +1,40 @@
+@import "../../../../styles/colors.module.scss";
+a:link {
+  color: $white;
+  text-decoration:none;
+}
+a:visited {
+  color: $white;
+  text-decoration:none;
+}
+a:hover {
+  color: $mintGreen;
+  text-decoration:underline;
+}
+a:active {
+  color: $mintGreen;
+  text-decoration:underline;
+  background-color:#000000;
+}
+.ctaSection{
+  background-color: $tealBlue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0px;
+  gap: 30px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  .ctaSection {
+    width: 100%; /* Ajusta a largura para 100% em telas menores que 1200px */
+    padding: 10px; /* Ajusta o padding conforme necessário */
+    font-size: 1rem; /* Ajusta o tamanho da fonte conforme necessário */
+  }
+}

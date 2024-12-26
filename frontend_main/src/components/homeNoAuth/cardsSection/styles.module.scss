@@ -1,0 +1,49 @@
+@import "../../../../styles/colors.module.scss";
+.sectionTitle {
+  font-size: 20px;
+  color: $charcoalBlack;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+}
+.card {
+  width: 340px;
+  height: 280px;
+  border: solid 1px black;
+  border-radius: 8px;
+  padding: 14px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.3s;
+  .cardTitle {
+    transition: 0.3s;
+    font-weight: bold;
+    color: $charcoalBlack;
+    margin-bottom: 8px;
+  }
+  .cardDescription {
+    font-size: 15px;
+    color: $charcoalBlack;
+  }
+	&:hover {
+    transform: scale(1.03);
+    .cardTitle {
+      font-size: 18px;
+      margin-left: 8px;
+    }
+  }
+}
+.card1 {
+  @extend .card;
+  background-image: url("https://img.lojasrenner.com.br/item/535485067/original/12.jpg");
+}
+.card2 {
+  @extend .card;
+  background-image: url("https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(fff):quality(80)/lleviaie/catalog/produtos/roupas/short/suplex/kit-3-shorts/copia-de-italy-corsario4.jpg");
+}
+.card3 {
+  @extend .card;
+  background-image: url("https://m.media-amazon.com/images/I/71HVvScLlVL._AC_SX679_.jpg");
+}

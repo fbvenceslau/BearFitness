@@ -1,0 +1,29 @@
+@import "../../../../styles/colors.module.scss";
+.imgSection {
+  width: 200px;
+  float: right;
+  padding: 10px 20px;
+}
+.subTitle{
+  font-size: 18px;
+  font-weight: bold;
+  color: $white;
+}
+.title {
+  font-size: 30px;
+  color: $white;
+  font-weight: bold;
+  line-height: 50px;
+}
+.description {
+  font-size: 15px;
+  color: $white;
+  // margin: 0px 0px 0px 0px;
+}
+@media (max-width: 1000px) {
+  .ctaSection {
+    width: 100%; /* Ajusta a largura para 100% em telas menores que 1200px */
+    padding: 10px; /* Ajusta o padding conforme necessário */
+    font-size: 1rem; /* Ajusta o tamanho da fonte conforme necessário */
+  }
+}

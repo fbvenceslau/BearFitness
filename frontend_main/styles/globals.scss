@@ -1,0 +1,29 @@
+@import "./colors.module.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+main {
+  background-color: #ffffff;
+  min-height: 100vh;
+  color: white;
+  
+  p {
+    margin: 0;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #151515;
+}
+::-webkit-scrollbar-thumb {
+  background: #868686;
+  border-radius: 40px;
+}

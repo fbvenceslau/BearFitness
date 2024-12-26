@@ -1,0 +1,15 @@
+@import "../../../../../styles/colors.module.scss";
+.button {
+  margin: 0px 5px;
+  border-color: transparent;
+  font-weight: bold;
+  color: $white;
+  transition: 0.5s;
+  background-color: $tealBlue;
+  &:hover{
+    border-color: $white;
+    color: $white;
+    background-color: $white;
+    color: $tealBlue;
+  }
+}

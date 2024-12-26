@@ -1,0 +1,19 @@
+@import "../../../../styles/colors.module.scss";
+.sectionTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.slideSectionBtn {
+  margin: 0px 5px;
+  border-color: $tealBlue;
+  font-weight: bold;
+  color: $tealBlue;
+  transition: 0.5s;
+  &:hover{
+    border-color: $white;
+    color: $white;
+    background-color: $tealBlue;
+    color: $white;
+  }
+}
