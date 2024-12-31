@@ -13,7 +13,8 @@ const HeaderNoAuth = function () {
 		</div>
 		<Container className={styles.nav}>
 			<div>
-        <CustomButton link={"/orders"} text={"Meu pedido"}/>
+        <CustomButton link={"/login"} text={"Entrar"}/>
+        <CustomButton link={"/register"} text={"Cadastrar"}/>
 			</div>
 		</Container>
   </>;

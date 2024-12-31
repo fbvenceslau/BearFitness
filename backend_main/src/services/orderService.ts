@@ -31,27 +31,5 @@ export const orderService = {
         quantity: order.quantity // Inclui o campo quantity
       }))
     }
-  },
-
-  findByName: async (name: string) => {
-    const { count, rows } = await Order.findAndCountAll({
-      attributes: [
-        'id',
-        'order',
-        'productId',
-        'userId',
-        'quantity',
-        'status'
-      ],
-      where: {
-        userId: {
-          [Op.iLike]: `%${name}%`
-        }
-      }
-    })
-    return {
-      orders: rows,
-      total: count
-    }
   }
 }

@@ -17,7 +17,6 @@ router.get('/products/popular',productsController.popular)
 router.get('/products/:id', productsController.show)
 
 router.get('/orders', ensureAuth, ordersController.index)
-router.get('/orders/search', ordersController.search)
 
 router.get('/favorites', ensureAuth, favoritesController.index)
 router.post('/favorites', ensureAuth, favoritesController.save)
